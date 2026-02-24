@@ -1,0 +1,11 @@
+# Environnements virtuels
+airflow_venv/
+venv/
+env/
+
+# Variables d'environnement / Clés API
+.env
+
+# Fichiers générés par Python
+__pycache__/
+*.pyc
