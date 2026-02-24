@@ -1,7 +1,7 @@
 #  Pipeline ETL Automatisé de Données Météo (AWS & Apache Airflow)
 
 ##  Contexte du Projet
-Dans le cadre de mon développement en Data Engineering, je construis un pipeline ETL (Extract, Transform, Load) automatisé de bout en bout. 
+Dans le cadre de mon développement en pipeline côté prodution, je construis un pipeline ETL (Extract, Transform, Load) automatisé de bout en bout. 
 Ce projet extrait des données météorologiques en temps réel pour une ville spécifique depuis l'**API OpenWeatherMap**, applique des transformations avec **Python (Pandas)**, et charge automatiquement les données traitées sous forme de fichier CSV dans un Data Lake **Amazon S3**. L'ensemble du workflow est orchestré et planifié quotidiennement à l'aide d'**Apache Airflow**, hébergé sur une instance AWS EC2.
 
 ---
